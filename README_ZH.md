@@ -31,5 +31,6 @@ const ASSET_URL = 'https://github.com'
 您也可以连接到您自己的域名来设立镜像站。<br>
 
 ## Notice
+- 请勿在镜像站中注册和登录，因为它们不起作用。
 - 一个免费的 CloudFlare 帐号包含每天 <b>10万</b> 次请求。如果您的请求次数用完了，镜像站将不再工作。但事实上，一天10万次对个人来说足够了。如果有需要，您可以升级到付费计划。
 - 本仓库中的 `index.js` 来自 [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)。

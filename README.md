@@ -4,8 +4,8 @@ En | [中](/README_ZH.md)
 ## Introduction
 A browser-side JS based online proxy implementation for Github.<br>
 There have been some regions and countries that blocked the access to Github.com and its subpages. With this github proxy, you can:<br>
-- set a mirror site for Github.com
-- set mirror sites for your own github pages.
+- set a mirror of Github.com
+- set mirrors for your own github pages.
 
 There's no servers needed. The only thing you need is just a `CloudFlare Workers` account. It's all free.<br>
 
@@ -22,14 +22,15 @@ There's no servers needed. The only thing you need is just a `CloudFlare Workers
 <img align="center" src="https://cdn.jsdelivr.net/gh/katorlys/github-proxy/screenshots/5.PNG"><br><br>
 
 ## What's more
-You can also set mirror sites for your own github pages. Just change `https://github.com` into your github pages domain such as `https://katorly.github.io` at
+You can also set mirrors for your own github pages. Just change `https://github.com` into your github pages domain such as `https://katorly.github.io` at
 ```
 const ASSET_URL = 'https://github.com'
 ```
 in instruction 3.<br>
 <br>
-You can also use your custom domains to set up the mirror sites.<br>
+You can also use your custom domains to set up the mirrors.<br>
 
 ## Notice
-- A free CloudFlare workers account includes up to <b>100k</b> requests per day. That means if the maximum amount of requests exceeded, your mirror site will not longer work. But in fact, 100k requests per day is enough for personal use. You may upgrade to paid plan if you want.
+- DON'T attempt to sign in or login in mirrors, because it won't work.
+- A free CloudFlare workers account includes up to <b>100k</b> requests per day. That means if the maximum amount of requests exceeded, your mirror will not longer work. But in fact, 100k requests per day is enough for personal use. You may upgrade to paid plan if you want.
 - The code `index.js` in this repository comes from [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy).
