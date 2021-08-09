@@ -1,5 +1,6 @@
 # github-proxy
-[En](/README.md) | 中
+[En](/README.md) | 中<br><br>
+![Pull Requests](https://img.shields.io/github/issues-pr-closed/katorlys/github-proxy?style=for-the-badge) ![Issues](https://img.shields.io/github/issues-closed/katorlys/github-proxy?style=for-the-badge)
 
 ## 介绍
 一个基于浏览器端 JS 实现的在线 Github 代理。<br>
