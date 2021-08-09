@@ -1,6 +1,6 @@
 # github-proxy
 En | [中](/README_ZH.md)<br><br>
- ![Pull Requests](https://img.shields.io/github/issues-pr-closed/katorlys/github-proxy?style=for-the-badge) ![Issues](https://img.shields.io/github/issues-closed/katorlys/github-proxy?style=for-the-badge)
+![Pull Requests](https://img.shields.io/github/issues-pr-closed/katorlys/github-proxy?style=for-the-badge) ![Issues](https://img.shields.io/github/issues-closed/katorlys/github-proxy?style=for-the-badge)
 
 ## Introduction
 A browser-side JS based online proxy implementation for Github.<br>
